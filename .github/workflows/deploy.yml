@@ -27,6 +27,7 @@ jobs:
         tags: shivansh199/week-18-2-ci-cd:latest  # Replace with your Docker Hub username and repository
 
         
+        
     - name: Verify Pushed Image
       run: docker pull shivansh199/week-18-2-ci-cd:latest  # Replace with your Docker Hub username and repository
 
